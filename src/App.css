@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #121212;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todolistwrapper {
+    background-color: whitesmoke !important;
+    border-color: whitesmoke !important;
+    border-style: solid !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo {
+    padding: 8px 10px 8px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.form-check-input {
+    margin-right: 10px;
+    background-color: #121212;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-check-input:checked:focus {
+    background-color: green;
+}
+
+.form-check-input:active {
+    background-color: green;
+}
+
+.form-check-input:checked {
+    background-color: green;
+}
+
+h2 {
+    color: whitesmoke !important;
+}
+
+.form-control {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    color: whitesmoke;
+    background-color: #1D1D1D;
+    border-color: whitesmoke;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 1px;
+    margin-left: 1px;
+    width: 100%;
+
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn:active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.btn:focus {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.buttonswrapper {
+    display: flex;
+}
+
+.buttonswrapper.space-around {
+    justify-content: space-around;
+}
+
+.buttonswrapper.space-between {  
+    justify-content: space-between;
+}
+
+.total {
+    margin: 5px;
+    margin-bottom: 3px;
+}
+
+@media screen and (min-width: 767px) {
+    .container {
+        max-width: 600px;
+    }   
 }
