@@ -1,6 +1,6 @@
 # TodoReact
 
-A simple web application to keep track of tasks in a persistent list.
+A simple web application to keep track of tasks in a persistent list. Deployed on GitHub Pages at: [https://nnorx.github.io/TodoReact/](https://nnorx.github.io/TodoReact/).
 
 # What I Learned
 
